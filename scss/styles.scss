@@ -1,0 +1,23 @@
+@import "./variables";
+@import "./pages/contacto";
+@import "pages/eventos";
+@import "pages/index";
+@import "pages/miCuenta";
+@import "pages/nosotros";
+@import "componentes/footer";
+@import "componentes/header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//PORTADA//
+.portada {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  padding: 0%;
+  margin: 0;
+}
